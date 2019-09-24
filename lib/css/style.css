@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video{
+    z-index: -10;
+}
+
+#menu{
+    display: flex;
+    width: 99.5vw;
+    justify-content: flex-end;
+    z-index: 100;
+}
+
+#menuButton{
+    cursor: pointer;
+    position: absolute;
+    font-size: 2.5vw;
+    z-index: 100;
+    color: white;
+}
+
+#menuInfo{
+    display: none;
+    margin-top: 6vh;
+    height: 75vh;
+    overflow: auto;
+    position: absolute;
+    width: 250px;
+    z-index: 100;
+}
+  
+#menuInfo p{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+span{
+    font-weight: 100;
+    z-index: 100;
+}
+
+#menuInfo p:hover {
+    background-color: #ccc;
+    z-index: 100;
+}
+
